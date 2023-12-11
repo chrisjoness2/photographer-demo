@@ -12,7 +12,7 @@ function Navbar() {
                     <li> <Link to='maternity'> Maternity </Link> </li>
                     <li> <Link to='/'> Personal </Link></li>
                     <li> <Link to='/'> About </Link> </li>
-                    <li> <Link to='maternity'> Book </Link></li>
+                    <li> <Link to='booking'> Book </Link></li>
                     
                 </ul>
             </div>
