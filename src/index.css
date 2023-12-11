@@ -1,13 +1,108 @@
-body {
+
+body{
+  height: 100%;
+  position: static;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin-top: 0;
+  padding-bottom: 6.7rem;
+  background-color: white
+};
+
+nav{
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #73777B;
+  font-weight: 100;
+}
+
+#navbar li a:hover {
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+#navbar li a:hover::after {
+  content: "";
+  width: 40%;
+  height: 2px;
+  position: absolute;
+  bottom: -4px;
+  background: black;
+  left: 18px;
+}
+
+
+.sunset1img{
+  position: absolute;
+  height: 600px;
+  width: 1000px;
+  left: 15%;
+  top: 18%;
+  border-radius: 5px;
+}
+
+.agathiName{
+  font-family: 'Amatic SC', sans-serif;
+  position: relative;
+  font-size: 3rem;
+  margin-top: 0;
+  left: 40%;
+  
+}
+
+footer{
+  position: relative;
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 35px;
+  height: 100px;
+  margin-top: -100px;
+  clear: both;
+}
+
+
+.maternityMessage{
+  font-family: 'Caveat', cursive;
+  position: absolute;
+  top: 12%;
+  font-size: 4.5rem;
+  width: 65%;
+  height: 50%;
+  left: 20%;
+}
+
+.maternityImg1{
+  height: 550px;
+  width: 370px;
+  border-radius: 10px;
+}
+
+.row li{
+  position: relative;
+  float: left;
+  list-style: none;
+  margin-top: 5%;
+  padding-left: 60px;
 }
