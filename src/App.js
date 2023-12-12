@@ -3,6 +3,7 @@ import './App.css';
 import Home from './components/home';
 import Maternity from './components/maternity';
 import Navbar from './components/navBar';
+import Book from './components/booking';
 
 function App() {
   return (
@@ -11,8 +12,7 @@ function App() {
     <Routes>
       <Route path="/" element= {<Home />} />
       <Route path="maternity" element= {<Maternity />} />
-
-
+      <Route path="booking" element= {<Book/>} />
     </Routes>
     </>
     
