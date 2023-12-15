@@ -1,6 +1,6 @@
 import { Routes, Route} from 'react-router-dom';
 import './App.css';
-import './Maternity.css';
+import './Carousels.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/home';
 import Maternity from './components/maternity';

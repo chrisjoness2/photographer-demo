@@ -21,7 +21,7 @@ function MaternityCarousel() {
     <div className="EntireMaternityCarousel">
    
     
-    <Carousel>
+    <Carousel fade>
         <Carousel.Item>
             <img className="CarouselImg" src={aggie1} alt="aggie" />
         </Carousel.Item>
