@@ -1,0 +1,62 @@
+/* Matternity Carousel */
+.CarouselImg{
+    height: 800px;
+    width: 100%;
+  }
+  
+  
+  .EntireMaternityCarousel{
+    position: relative;
+    left: 30%;
+    top: 150px;
+    height: 650px;
+    width: 40%;
+  }
+  
+  .MaternityMessage{
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 100px;
+    text-align: center;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 2rem;
+    font-weight:bolder;
+  }
+
+  /* Wedding Carousel */
+
+  .WeddingCarouselImg{
+    height: 500px;
+    position: relative;
+    width: 80%;
+    left: 10%;
+
+  }
+
+  .EntireWeddingCarousel{
+    position: absolute;
+    left: 2%;
+    top: 180px;
+    width: 60%;
+    height: 100px;
+    
+  }
+
+  .WeddingyMessage{
+    position: relative;
+    width: 32%;
+    align-items: center;
+    top: 250px;
+    text-align: center;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 2rem;
+    font-weight:bolder;
+    left: 63%;
+    float: left;
+  }
+
+
+  .backgroundcolorWedding{
+    background-color: white;
+  }
