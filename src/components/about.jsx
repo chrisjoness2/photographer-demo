@@ -1,6 +1,7 @@
 import me from '../images/aggieselfie.jpg';
 
 
+
 function About(){
     return (
         <div>
@@ -16,10 +17,6 @@ function About(){
                     I want to capture moments of your life you will cherish forever! Can't wait to meet you!
                 </p>
             </div>
-            
-
-
-
         </div>
         
         
