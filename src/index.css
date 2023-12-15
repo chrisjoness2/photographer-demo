@@ -1,3 +1,6 @@
+#root{
+  padding-top: 0;
+} 
 
 body{
   height: 100%;
@@ -5,7 +8,7 @@ body{
   margin: 0;
   margin-top: 0;
   padding-bottom: 6.7rem;
-  background-color: white
+  overflow-x: hidden;
 };
 
 nav{
@@ -68,18 +71,6 @@ nav{
   margin-top: 0;
   left: 40%;
   
-}
-
-footer{
-  position: relative;
-  width: 100%;
-  background-color: green;
-  color: white;
-  text-align: center;
-  padding: 35px;
-  height: 100px;
-  margin-top: -100px;
-  clear: both;
 }
 
 
@@ -178,5 +169,23 @@ input[type="text"] {
 
 .submitBtn:hover {
   background-color: #6FB2D2;
+}
+
+
+.aboutMeImgDiv{
+  position: relative;
+  top: 80px;
+  font-size: 2rem;
+  width: 90%;
+  margin-right: 0;
+  font-family: 'Ysabeau Office', sans-serif;
+
+}
+
+.AggieSelfieImg{
+  float: left;
+  height: 15%;
+  width: 30%;
+  padding: 0 80px 80px 80px;
 }
 
