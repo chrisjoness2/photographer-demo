@@ -17,6 +17,7 @@ function Maternity() {
         <p> Maternity photos are pictures that speak a thousand words. You can look at them now and forever
             and remember the journey as your little one was growing inside of you.
         </p>
+        <br/>
      </div>
     <div className="EntireMaternityCarousel">
    

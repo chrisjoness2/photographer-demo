@@ -3,7 +3,7 @@ import newYork from '../images/newYork.jpeg';
 function Home() {
     return(
         <>
-        <img className='sunset1img' src={newYork} alt="newyork" />
+        <img className='newYorkImg' src={newYork} alt="newyork" />
         </>
         
 
