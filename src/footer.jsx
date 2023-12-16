@@ -1,9 +1,13 @@
+const Year = new Date();
+let YearNow = Year.getFullYear();
+
 function Footer() {
     return (
-
         <footer>
-            This will be the footer hopefully it will work but if not its okay
+            <h1 className="copyRight">&copy; Agathi Photography {YearNow} </h1> 
         </footer>
+            
+       
     )
 };
 
