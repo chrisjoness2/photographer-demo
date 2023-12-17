@@ -14,9 +14,9 @@ function Book() {
             <form className='form'> 
             <h1 className='bookingTitle'> Booking & Pricing Information </h1>
             <div className='bookingPrice'>
-               <p className='costs'> Maternity: $250 | 1 Hour </p>
-               <p className='costs'> Wedding: $500 | 3 Hours</p>
-               <p className='costs'> Other: Pricing depends on your wants/needs. Specify below in message box</p>
+               <p className='costs'>  <b> Maternity: </b> $250 | 1 Hour </p>
+               <p className='costs'> <b> Wedding: </b> $500 | 3 Hours </p>
+               <p className='costs'> <b> Other: </b> Pricing depends on your wants/needs. Specify below in message box</p>
             </div>
 
                <label for='firstname'> Full Name  </label> <input type='text' id="fName"/>
