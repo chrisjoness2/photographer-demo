@@ -1,22 +1,27 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../index.css";
 
-function Navbar() {
+export const Navbar = () => {
+    const navLinksStyle = ({ isActive }) => {
+        return {
+            fontWeight: isActive ? 'bold' : 'normal',
+            color: isActive ? 'black' : '',
+         }
+
+    }
 
     return(
      <>
-            <div>
+            <nav>
                 <h1 className="agathiName"> Agathi Photography </h1>
                 <ul id='navbar'>
-                    <li> <Link to='/'> Home </Link> </li>
-                    <li> <Link to='maternity'> Maternity </Link> </li>
-                    <li> <Link to='wedding'> Wedding </Link></li>
-                    <li> <Link to='about'> About </Link> </li>
-                    <li> <Link to='booking'> Book </Link></li>
+                    <li> <NavLink style={navLinksStyle} to='/'> Home </NavLink> </li>
+                    <li> <NavLink style={navLinksStyle} to='maternity'> Maternity </NavLink> </li>
+                    <li> <NavLink style={navLinksStyle} to='wedding'> Wedding </NavLink></li>
+                    <li> <NavLink style={navLinksStyle} to='about'> About </NavLink> </li>
+                    <li> <NavLink style={navLinksStyle} to='booking'> Book </NavLink></li>
                 </ul>
-            </div>
-
-            
+            </nav>
     </>
     )
     };

@@ -17,6 +17,7 @@ body{
   box-sizing: inherit;
 };
 
+/*     NAVBAR     */
 nav{
 
 }
@@ -42,7 +43,6 @@ nav{
   text-decoration: none;
   font-size: 1.3rem;
   color: #73777B;
-  font-weight: 100;
 }
 
 #navbar li a:hover {
@@ -61,51 +61,27 @@ nav{
 }
 
 
-.sunset1img{
-  position: absolute;
-  height: 600px;
-  width: 1000px;
-  left: 15%;
-  top: 18%;
-  border-radius: 5px;
-}
-
 .agathiName{
   font-family: 'Amatic SC', sans-serif;
   position: relative;
   font-size: 3rem;
   margin-top: 0;
   left: 42%;
-  
 }
 
-
-.maternityMessage{
-  font-family: 'Caveat', cursive;
+/*     HOME PAGE    */
+.newYorkImg{
   position: absolute;
-  top: 12%;
-  font-size: 4.5rem;
-  width: 65%;
-  height: 50%;
-  left: 20%;
-}
-
-.maternityImg1{
-  height: 550px;
-  width: 370px;
-  border-radius: 10px;
-}
-
-.row li{
-  position: relative;
-  float: left;
-  list-style: none;
-  margin-top: 5%;
-  padding-left: 60px;
+  height: 600px;
+  width: 1000px;
+  left: 15%;
+  top: 18%;
 }
 
 
-.bookingImg {
+
+/*     BOOKING PAGE     */
+.bookingBackgroundImg {
   height: 40%;
   width: 60%;
   position: relative;
@@ -118,10 +94,23 @@ nav{
 .bookingTitle{
   font-size: 3.5rem;
   position: relative;
-  left: 42%;
+  left: 11%;
   top: 50px;
   padding-bottom: 80px;
   margin-top: 0;
+}
+
+.bookingPrice{
+  border-style: solid;
+  border-color: #6FB2D2;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  width: 800px;
+}
+
+.costs{
+  margin-bottom: 0;
+  padding-left: 20px;
 }
 
 .form{
@@ -133,24 +122,27 @@ nav{
   font-family: 'Afacad', sans-serif;
 }
 
-.formName{
-  position: relative;
-  top: 50px;
-}
 
 #fName,#number, #email, #date {
-  height: 20px;
+  height: 40px;
   margin-bottom: 50px;
   position: relative;
   top: -5px;
   border-radius: 5px;
+}
 
+#txtArea{
+  padding-top: 30px;
+}
+
+textarea{
+  resize: none !important;
 }
 
 #photoshootOptions{
-  height: 30px;
+  height: 40px;
   width: 100px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -164,7 +156,7 @@ input[type="text"] {
   height: 50px;
   width: 30%;
   font-size: 1.5rem;
-  left: 75%;
+  left: 40%;
   border-radius: 10px;
   color: black;
   background-color: white;
@@ -176,39 +168,49 @@ input[type="text"] {
 .submitBtn:hover {
   background-color: #6FB2D2;
 }
-
+/*     ABOUT PAGE     */
 
 .aboutMeImgDiv{
   position: relative;
-  top: 80px;
+  top: 100px;
   font-size: 2rem;
-  width: 90%;
   margin-right: 0;
   font-family: 'Ysabeau Office', sans-serif;
+  font-weight:bolder;
 
 }
 
 .AggieSelfieImg{
-  float: left;
-  height: 15%;
-  width: 30%;
-  padding: 0 80px 80px 80px;
+  position: relative;
+  left: 5%;
+  height: 580px;
+  width: 500px;
+  top: 20px;
 }
 
+.aboutMeDiscription{
+  position: absolute;
+  width: 50%;
+  left: 45%;
+  top: 5%;
+}
+
+/*    FOOTER      */
 Footer{
   background-color: #E3F4F4;
   position:relative;
   bottom: -100vh;
-  height: 100px;
+  height: 90px;
   left: 0;
   right: 0;
 }
 
 
-
 .copyRight{
   position: relative;
-  left: 42.5%;
-  font-size: 1rem;
-  top: 40%;
+  left: 43.5%;
+  font-size: 0.7rem;
+  top: 47%;
 }
+
+
